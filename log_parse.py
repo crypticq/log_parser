@@ -18,7 +18,7 @@ def main(filelog):
 
 	file = open(filelog , 'r')
 	for line in file.readlines():
-		ip_lookup = line.split(" - ")[0]
+		ip_lookup = line.split("-")[0]
 		if ip_lookup == ip:
 			print(line)
 
